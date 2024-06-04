@@ -36,10 +36,7 @@ Lo que en una página utilizariamos usando la etiqueta < p >.
 
 También podemos aplicar estilos básicos de alineación :
 
-Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por 
-defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la 
-izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado 
-a la izquierda por defecto
+Este párrafo está alineado a la izquierda Este párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierdaEste párrafo está alineado a la izquierda Este párrafo está alineado a la izquierda Este párrafo está alineado a la izquierda Este párrafo está alineado a la izquierda Este párrafo está alineado a la izquierda Este párrafo está alineado a la izquierda 
 
 <p align="right">
 Este párrafo está alineado a la derecha utilizando la propiedad alineación. Este párrafo está alineado a la derecha utilizando la propiedad alineación.Este párrafo está alineado a la derecha utilizando la propiedad alineación.Este párrafo está alineado a la derecha utilizando la propiedad alineación.Este párrafo está alineado a la derecha utilizando la propiedad alineación.Este párrafo está alineado a la derecha utilizando la propiedad alineación.
@@ -47,7 +44,42 @@ Este párrafo está alineado a la derecha utilizando la propiedad alineación. E
 
 <p align="center">
 Este párrafo está centrado usando la propiedad de alineación. Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.Este párrafo está centrado usando la propiedad de alineación.
-
-<p align="justify">
-Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineaciónEste párrafo estará justificado utilizando la propiedad de alineación
 </p>
+
+
+
+
+
+### 4. Texto Enfatizado (BOLD, ITALIC, BOLD/ITALIC)
+
+Si el texto que deseamos enfatizar se encuentra en un párrafo, podemos utilizar algunos trucos para ubicarlos en la documentación
+
+##### Texto en Negrita (BOLD)
+
+Para poder poner el texto en negrita, este deberá ser encerrado entre dobles **
+
+Ejemplo:
+  
+  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto **Texto en negrita** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+  ##### Texto en Cursiva (ITALIC)
+
+Algunas veces es necesario resaltar algunas secciones o textos en cursiva para que el lector detectre el texto importante, dentro del maquetado con el estándar Markdown lo podemos realizar utilizando el texto entre * (asteriscos)
+
+**Ejemplo:**
+
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto en cursiva* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+##### Texto en Negrita y Cursiva (BOLD & ITALIC)
+
+De igual manera podemos unir ambos estilos **Negrita** y *Cursiva* para realizar los textos que consideremos importantes dentro de la documentación de nuestros proyectos de software, utilizando un triple * (asteriscos)
+
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ***Texto en negrita y cursiva*** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+##### Subrayado (UNDERLINE)
+
+Algunas veces necesitaremos subrayar texto dentro de la documentación, para ello, si bien Markdown no tiene un atajo o codificación rapida, podemos utilizar el estilo que usa el estándar de HTML, usando el tag <ins>
+
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins> Texto subrayado</ins> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+
