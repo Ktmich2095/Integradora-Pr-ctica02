@@ -168,5 +168,26 @@ Documentación creada por: **TSU Michelle Castro Otero**
 
 Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina <https://github.com/Ktmich2095/Integradora-Pr-ctica02>
 
+### 9.Tablas(TABLES)
 
+Si la documentación lo requiere podemos presentar información en formato de tablas con filas y columnas, para maquetarlas podemos utilizar el caracter | para delimitar las columnas y - para delimitar las filas.
 
+**EJEMPLO:**    
+
+|**Encabezado 1**|**Encabezado 2**|**Encabezado 3**|**Encabezado 4**|
+|----------------|----------------|----------------|----------------|
+| Fila 1 celda 1 | Fila 1 celda 2 | Fila 1 celda 3 | Fila 1 celda 4 |
+| Fila 2 celda 1 | Fila 2 celda 2 | Fila 2 celda 3 | Fila 2 celda 4 |
+| Fila 3 celda 1 | Fila 3 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
+
+En caso de necesitar la fusión de celdas en columnas usaremos la propiedad del tag <td> y en el caso de necesitar la fusión de filas utilizaremos la propiedad rowspan.
+
+**EJEMPLO**
+
+|**Encabezado 1**|**Encabezado 2**|**Encabezado 3**|**Encabezado 4**|
+|----------------|----------------|----------------|----------------|
+| Fila 1 celda 1 | Fila 1 celda 2 | Fila 1 celda 3 | Fila 1 celda 4 |
+| Fila 2 celda 1 <td rowspan=2> Fila 2 celda 2 | Fila 2 celda 3 |
+|                | Fila 3 celda 2 | Fila 3 celda 3 | 
+|                | Fila 4 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
+| Fila 6 celda 1 | Fila 5 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
