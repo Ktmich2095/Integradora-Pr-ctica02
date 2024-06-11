@@ -87,4 +87,60 @@ Algunas veces necesitaremos subrayar texto dentro de la documentación, para ell
 
 Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins> Texto subrayado</ins> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
 
+Continuamos con los cambios básicos de Git y GitHub para el maquetado de la documentación.
+
+**5.Cuadros para código o reseñas (BLOCKQUOTES)**
+
+Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialización de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (>)
+
+**EJEMPLO**
+
+Para listar las carpetas y archivos en donde una terminal de sistema operativo Windows debemos ingresar el comando:
+
+> C:/dir
+
+**Después oprimimos la tecla "Enter".**
+
+**También podemos ingresar textos multilinea**
+
+**EJEMPLO**
+
+> Aquí se ingresan un conjunto de instrucciones para explicar al usuario, cómo instalar el software que hemos diseñado.
+
+Y si deseamos incluir viñetas para enlistar pasos podemos utilizar el caracter - dentro del texto a documental.
+
+**Ejemplo Pasos para instalar la base de datos**
+
+>- Descargar MySQL Server del sitio oficial
+>- Instalar el sistema gestor de base de datos, definiendo el puerto y contraseña para el usuario root.
+>- Descargamos el archivo de respaldo de la base de datos (.sql)
+>- Restauramos la base de datos usando el comando mysql
+> > C:/Archivos de programa/MySQL Server 8.0/bin/mysql-u root-password< respaldo.sql
+
+**6.Listas Ordenadas y Listas Desordenadas**
+
+Si en nuestra documentación necesitamos incluir información en modo de lista, un elemento tras otro, podemos hacerlo utilizando los números con un punto decimal, si lasm deseamos ordenadas o un guión medio si solo queremos una viñeta.
+
+**Ejemplo**
+
+Para crear tu primer repositorio en GitHub deberás:
+
+<ol>
+  <li>Contar con cuenta de GitHub.</li>
+  <li>Dar clic en el botón Nuevo Repositorio</li>
+  <li>Asignarle un nombre a tu repositorio, por ejemplo:</li>
+  *Practica-3A*
+  <li>Asignarle un nivel de privacidad entre</li>
+  <ul>
+    <li>Público: Si quieres que esté disponible para todos los usuarios</li>
+    <li>Privado: Si deseamos que solo a quien tu decidas que pueda colaborar con tu proyecto</li>
+  </ul>
+  <li>Definir si incluye un arhivo de descripción llamada</li>
+  READ.md
+  <li>Definir si habrá exclusiones de archivos a través del archivo *.gitgnore*</li>
+  <li>Guardar los cambios</li>
+</ol>
+
+
+
 
