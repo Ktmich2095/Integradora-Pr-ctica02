@@ -89,7 +89,7 @@ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Te
 
 Continuamos con los cambios básicos de Git y GitHub para el maquetado de la documentación.
 
-**5.Cuadros para código o reseñas (BLOCKQUOTES)**
+### 5.Cuadros para código o reseñas (BLOCKQUOTES)
 
 Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialización de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (>)
 
@@ -117,30 +117,56 @@ Y si deseamos incluir viñetas para enlistar pasos podemos utilizar el caracter 
 >- Restauramos la base de datos usando el comando mysql
 > > C:/Archivos de programa/MySQL Server 8.0/bin/mysql-u root-password< respaldo.sql
 
-**6.Listas Ordenadas y Listas Desordenadas**
+### 6.Listas Ordenadas y Listas Desordenadas
 
-Si en nuestra documentación necesitamos incluir información en modo de lista, un elemento tras otro, podemos hacerlo utilizando los números con un punto decimal, si lasm deseamos ordenadas o un guión medio si solo queremos una viñeta.
+Si en nuestra documentación necesitamos incluir información en modo de lista, un elemento tras otro, podemos hacerlo utilizando los números con un punto decimal, si las deseamos ordenadas o un guión medio si solo queremos una viñeta.
 
 **Ejemplo**
 
 Para crear tu primer repositorio en GitHub deberás:
 
-<ol>
-  <li>Contar con cuenta de GitHub.</li>
-  <li>Dar clic en el botón Nuevo Repositorio</li>
-  <li>Asignarle un nombre a tu repositorio, por ejemplo:</li>
+  1.Contar con cuenta de GitHub.
+  
+  2.Dar clic en el botón **Nuevo Repositorio**
+  
+  3.Asignarle un nombre a tu repositorio, por ejemplo:
   *Practica-3A*
-  <li>Asignarle un nivel de privacidad entre</li>
-  <ul>
-    <li>Público: Si quieres que esté disponible para todos los usuarios</li>
-    <li>Privado: Si deseamos que solo a quien tu decidas que pueda colaborar con tu proyecto</li>
-  </ul>
-  <li>Definir si incluye un arhivo de descripción llamada</li>
-  READ.md
-  <li>Definir si habrá exclusiones de archivos a través del archivo *.gitgnore*</li>
-  <li>Guardar los cambios</li>
-</ol>
+  
+  4.Asignarle un nivel de privacidad entre
+  
+   - **Público:** Si quieres que esté disponible para todos los usuarios
+    
+  - **Privado:** Si deseamos que solo a quien tu decidas que pueda colaborar con tu proyecto
+    
+  5.Definir si incluye un arhivo de descripción llamada
+  *READ.md*
+  
+  6.Definir si habrá exclusiones de archivos a través del archivo *.gitgnore*
+  
+  7.Guardar los cambios
 
+
+### 7.Ligas (Hipervinculos)
+
+Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el, se enmaquetan utilizando los corchetes[], inmediatamente después pondremos la referencia entre parentesis()
+
+**Ejemplo**
+
+Mi buscador favorito es:[Google](https://www.google.com/)
+
+Pero si deseamos poner solo las ligas directas o un correo electrónico podemos utilizar los simbolos <>
+
+**Ejemplo**
+
+Documentación creada por: **TSU Michelle Castro Otero**
+
+<230881@utxicotepec.edu.mx>
+
+<http://www.utxicotepec.edu.mx>
+
+### 8.Imagenes
+
+Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina <https://github.com/Ktmich2095/Integradora-Pr-ctica02>
 
 
 
