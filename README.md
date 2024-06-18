@@ -192,33 +192,48 @@ Si la documentación lo requiere podemos presentar información en formato de ta
 
 En caso de necesitar la fusion de de celdas en columnas usaremos la propiedad "colspan" del tag <td> y en el casi de necesitar la fusion de filas utilizaremos propiedad "rowspan"
 
-<table border="1">
-    <tr>
-        <th>Nombre</th>
-        <th>Edad</th>
-        <th rowspan="2">Ciudad</th>
-        <th colspan="2">Contacto</th>
-    </tr>
-    <tr>
-        <th colspan="2">Información Adicional</th>
-        <th>Teléfono</th>
-        <th>Email</th>
-    </tr>
-    <tr>
-        <td>Juan Pérez</td>
-        <td>30</td>
-        <td>Madrid</td>
-        <td>123456789</td>
-        <td>juan@example.com</td>
-    </tr>
-    <tr>
-        <td>Maria García</td>
-        <td>25</td>
-        <td>Barcelona</td>
-        <td>987654321</td>
-        <td>maria@example.com</td>
-    </tr>
+<table>
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+    <th>Encabezado 3</th>
+    <th>Encabezado 4</th>
+  </tr>
+  <tr>
+    <td>Fila 1 Celda 1</td>
+    <td>Fila 1 Celda 2</td>
+    <td>Fila 1 Celda 3</td>
+    <td>Fila 1 Celda 3</td>
+  </tr>
+  <tr>
+    <td>Fila 2 Celda 1</td>
+    <td colspan=3 align="center"> Fila 2 Celda 2</td>
+  </tr>
+  <tr>
+    <td rowspan=3>Fila 3 Celda 1</td>
+    <td> Fila 3 Celda 2</td>
+    <td> Fila 3 Celda 3</td>
+    <td> Fila 3 Celda 4</td>
+  </tr>
+  <tr>
+    <td> Fila 4 Celda 2</td>
+    <td> Fila 4 Celda 3</td>
+    <td> Fila 4 Celda 4</td>
+  </tr>
+  <tr>
+    <td> Fila 5 Celda 2</td>
+    <td> Fila 5 Celda 3</td>
+    <td> Fila 5 Celda 4</td>
+  </tr>
+  <tr>
+    <td> Fila 6 Celda 1</td>
+    <td> Fila 6 Celda 2</td>
+    <td> Fila 6 Celda 3</td>
+    <td> Fila 6 Celda 4</td>
+  </tr>
+  
 </table>
+  
 
 
 ### 9.Imagenes
