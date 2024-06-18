@@ -166,7 +166,7 @@ Documentación creada por: **TSU Michelle Castro Otero**
 
 ### 8.Imagenes
 
-Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina <img src="empresas-integradoras.png" width:50px heigth:50px>
+Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina <img src="logo.jpg" width:50px heigth:50px>
 
 ### 9.Tablas(TABLES)
 
