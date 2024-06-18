@@ -181,7 +181,7 @@ Si la documentación lo requiere podemos presentar información en formato de ta
 | Fila 2 celda 1 | Fila 2 celda 2 | Fila 2 celda 3 | Fila 2 celda 4 |
 | Fila 3 celda 1 | Fila 3 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
 
-En caso de necesitar la fusión de celdas en columnas usaremos la propiedad del tag <td> y en el caso de necesitar la fusión de filas utilizaremos la propiedad rowspan.
+
 
 **EJEMPLO**
 
@@ -193,7 +193,7 @@ En caso de necesitar la fusión de celdas en columnas usaremos la propiedad del 
 |                | Fila 4 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
 | Fila 6 celda 1 | Fila 5 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
 
-En caso de necesitar la funcion de de celdas en columnas usaremos la propiedad "colspan" del tag <td> y en el casi de necesitar la fusion de filas utilizaremos propiedad "rowspan"
+En caso de necesitar la fusion de de celdas en columnas usaremos la propiedad "colspan" del tag <td> y en el casi de necesitar la fusion de filas utilizaremos propiedad "rowspan"
 
 <table border="1">
     <tr>
