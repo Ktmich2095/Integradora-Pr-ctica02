@@ -166,7 +166,7 @@ Documentación creada por: **TSU Michelle Castro Otero**
 
 ### 8.Imagenes
 
-Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina <https://github.com/Ktmich2095/Integradora-Pr-ctica02>
+Para insertar una imagen, es necesario crear un repertorio, para ello, es necesario abrir la barra de wiki e insertar el enlace de la imagen correspondiente, además de agregar una breve descrioción de ella. Posteriormente, se guardara y copiara el vinculo generado para añadirlo a la pagina (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOB1N8Gm5Kl2b3T1VE0FCIIM8GWqRc4Twrkw&s)
 
 ### 9.Tablas(TABLES)
 
