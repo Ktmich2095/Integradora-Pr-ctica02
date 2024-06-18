@@ -192,3 +192,34 @@ En caso de necesitar la fusión de celdas en columnas usaremos la propiedad del 
 |                | Fila 3 celda 2 | Fila 3 celda 3 | 
 |                | Fila 4 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
 | Fila 6 celda 1 | Fila 5 celda 2 | Fila 3 celda 3 | Fila 3 celda 4 |
+
+En caso de necesitar la funcion de de celdas en columnas usaremos la propiedad "colspan" del tag <td> y en el casi de necesitar la fusion de filas utilizaremos propiedad "rowspan"
+
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th rowspan="2">Ciudad</th>
+        <th colspan="2">Contacto</th>
+    </tr>
+    <tr>
+        <th colspan="2">Información Adicional</th>
+        <th>Teléfono</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Juan Pérez</td>
+        <td>30</td>
+        <td>Madrid</td>
+        <td>123456789</td>
+        <td>juan@example.com</td>
+    </tr>
+    <tr>
+        <td>Maria García</td>
+        <td>25</td>
+        <td>Barcelona</td>
+        <td>987654321</td>
+        <td>maria@example.com</td>
+    </tr>
+</table>
+
